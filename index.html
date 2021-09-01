@@ -26,26 +26,188 @@ Version: Draft Version  -->
   </head>
   <body>
     <!-- Navigation Section Navbar starts here -->
-    <header>Navbar</header>
+    <header>
+      <header id="top-page">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="./images/as-logo.jpeg"
+                alt=""
+                width="60"
+                height="52"
+                class="d-inline-block align-text-top"
+              />A&S</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-flex justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#carlist"
+                    >Cars</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#enquiry">Enquiries</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </header>
     <!-- Navigation Section Navbar Ends here -->
 
     <!-- Main Heading of the page-->
-    <h1>Vintage cars for hire</h1>
+    <h1 class="text-center">Vintage cars for hire</h1>
 
     <!-- Cars Display Section Starts here -->
-    <section>Cars Display</section>
+    <section id="carlist" class="container">
+      <h4>Car Listings</h4>
+      <!-- First Row -->
+      <div class="row mb-1">
+        <!-- First Column  -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/car5.jpeg"
+              class="card-img-top rounded-top rounded-left rounded-4"
+              alt="Car Image"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Second Column -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/car6.jpeg"
+              class="card-img-top rounded-top rounded-left rounded-4"
+              alt="Car image"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Third Column -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/car7.jpeg"
+              class="card-img-top rounded-top rounded-left rounded-4"
+              alt="Car Image"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Fourth Column -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="./images/car8.jpeg"
+              class="card-img-top rounded-top rounded-left rounded-4"
+              alt="Car Image"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Cars Display Section Ends Here -->
 
     <!-- Enquiries Form Section Starts here -->
-    <section>Enquiries Form</section>
+    <section
+      id="enquiry"
+      class="container border border-2 border-primary mt-3 bg-info bg-gradient"
+    >
+      <form>
+        <h4 class="text-dark">Enquire about a car</h4>
+        <div class="mb-3 col-auto">
+          <label for="fullname" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="fullname" />
+        </div>
+        <div class="mb-3 col-auto">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="carselect" class="form-label">Choose a Car</label>
+          <select id="carselect" class="form-select" aria-label="Car Selection">
+            <option selected>Car1</option>
+            <option value="1">Car2</option>
+            <option value="2">Car3</option>
+            <option value="3">Car4</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="comments" class="form-label font-weight-bold"
+            >Comments</label
+          >
+          <textarea
+            class="form-control"
+            id="comments"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
     <!-- Enquiries Form Section Ends here -->
 
     <!-- Contacts Section Starts here -->
-    <section>Contacts</section>
+    <section class="container text-left mt-3" id="contact">
+      <h4>Contact</h4>
+      <h6>Address: 27 Carlisle St Earlston VIC 3669</h6>
+      <h6>Phone: XXXX0000</h6>
+      <h6>Email: xxxx@xxx.com</h6>
+    </section>
     <!-- Contacts Section Ends Here -->
 
     <!-- Footer Section Starts here -->
-    <footer>footer</footer>
+    <footer class="container text-center text-info">
+      <h6>
+        © A&S Solutions, Inc All rights reserved 2021. Contact Senthil
+        email:enquiry@as-solutions.com
+      </h6>
+
+      <!--link <a href="#top-page">Back to top</a> of the page -->
+    </footer>
     <!-- Footer Section Ends here -->
 
     <!-- Optional JavaScript; choose one of the two! -->
