@@ -3,6 +3,7 @@ body {
 
 .card {
   height: 100%;
+  width: 100%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
 }
@@ -24,4 +25,9 @@ body {
 .backtotop {
   display: grid;
   justify-content: right;
+}
+
+.googlemap {
+  margin-top: 0;
+  margin-left: auto;
 }
