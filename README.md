@@ -1,1 +1,1 @@
-# vinatage-cars
+# vintage-cars
