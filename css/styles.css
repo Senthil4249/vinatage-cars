@@ -3,8 +3,24 @@ body {
 
 .card {
   height: 100%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
 }
 
+.navbar > .container-fluid {
+  background-color: rgb(167, 248, 244);
+}
 .card > img {
   height: 100%;
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+}
+
+#enquiry {
+  background-color: rgb(112, 236, 195);
+}
+.backtotop {
+  display: grid;
+  justify-content: right;
 }
