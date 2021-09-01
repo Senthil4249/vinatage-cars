@@ -3,18 +3,19 @@ body {
 
 .card {
   height: 100%;
-  border-top-left-radius: 15%;
-  border-top-right-radius: 15%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
 }
 
 .navbar > .container-fluid {
+  font-family: Helvetica, sans-serif;
   background-color: rgb(167, 248, 244);
 }
 .card > img {
   height: 100%;
-  border-bottom-left-radius: 15%;
-  border-top-left-radius: 15%;
-  border-top-right-radius: 15%;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
 }
 
 #enquiry {
